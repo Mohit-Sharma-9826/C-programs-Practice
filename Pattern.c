@@ -113,7 +113,7 @@ void pat5(){
     //   * * * * * * *           
     //     * * * * * 
     //       * * * 
-    // 	       *
+    //         *
 
     int row, col, n=1;
     for(row=1; row<=9; row++){
