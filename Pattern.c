@@ -6,7 +6,7 @@ void pat1(){
     //   * * * * * * *           
     //     * * * * * 
     //       * * * 
-    // 	       *
+    //         *
 
     int row, col;
     for(row=1; row<=5; row++){
