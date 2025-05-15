@@ -30,11 +30,11 @@ int dequeue(struct queue* q){
     else if(q->rear == q->front){
         q->rear = -1;
         q->front = -1;
-        return q->arr[q->front];
     }
     else{
+        int val = q->arr[q->front];
         q->front++;
-        return q->arr[q->front];
+        return val;
     }
 }
 
